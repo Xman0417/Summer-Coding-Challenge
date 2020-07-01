@@ -36,7 +36,7 @@ def test():
             score += 3
         qten = input("Do you think you may have depression? ")
         if qten == "yes":
-            score += 9
+            score += 6
         print("While these tests are not a definite answer, these can give a decent idea whether or not you have depression.")
         if score >= 12:
             print("You may have depression. However, there is a chance that you do not and you should talk to a professional to confirm or deny this.")
